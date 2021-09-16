@@ -1,11 +1,11 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 
 Namespace Example
 	Partial Public Class App
 		Inherits Application
+
 		Public Sub New()
-			AddHandler Startup, AddressOf OnStartup
+			AddHandler Me.Startup, AddressOf OnStartup
 #If SILVERLIGHT Then
 			InitializeComponent()
 #End If
