@@ -18,8 +18,8 @@ Use the [ValidationErrorsHostBehavior.HasErrors](https://docs.devexpress.com/WPF
 
 <!-- default file list --> 
 ## Files to Look At
-- [MainView.xaml](./CS/Views/MainView.xaml) (**VB**: [MainView.xaml](./VB/Views/MainView.xaml))
-- [MainViewMode.cs](./CS/ViewModels/MainViewModel.cs) (**VB**: [MainViewMode.vb](./VB/ViewModels/MainViewModel.vb))
+- [MainView.xaml](./CS/View/MainView.xaml) (**VB**: [MainView.xaml](./VB/View/MainView.xaml))
+- [MainViewMode.cs](./CS/ViewModel/MainViewModel.cs) (**VB**: [MainViewMode.vb](./VB/ViewModel/MainViewModel.vb))
 <!-- default file list end -->
 
 ## Documentation
