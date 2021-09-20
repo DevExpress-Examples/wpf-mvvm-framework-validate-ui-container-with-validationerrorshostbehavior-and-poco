@@ -15,17 +15,19 @@
         <dxmvvm:ValidationErrorsHostBehavior x:Name="validationErrorsHostBehavior"/>
     </dxmvvm:Interaction.Behaviors>
     <Grid x:Name="LayoutRoot" Background="White">
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="First Name: " VerticalAlignment="Center"/>
-                <TextBox Text="{Binding FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" Width="120"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="First Name: "  VerticalAlignment="Center" Width="71"/>
+                <dxe:TextEdit Text="{Binding FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, 
+                                NotifyOnValidationError=True, ValidatesOnDataErrors=True}"  Width="120"/>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Last Name: " VerticalAlignment="Center"/>
-                <TextBox Text="{Binding LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" Width="120"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="Last Name: "  VerticalAlignment="Center" Width="71"/>
+                <dxe:TextEdit Text="{Binding LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, 
+                                NotifyOnValidationError=True, ValidatesOnDataErrors=True}"  Width="120"/>
             </StackPanel>
-            <Button Content="Save" HorizontalAlignment="Center" VerticalAlignment="Center" 
-                IsEnabled="{Binding ElementName=validationErrorsHostBehavior, Path=HasErrors, Converter={StaticResource BooleanNegationConverter}}"/>
+            <Button Content="Login" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="{Binding ElementName=validationErrorsHostBehavior, 
+                                                   Path=HasErrors, Converter={StaticResource BooleanNegationConverter}}"/>
         </StackPanel>
     </Grid>
 </UserControl>
