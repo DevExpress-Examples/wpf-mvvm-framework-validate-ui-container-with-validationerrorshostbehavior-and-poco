@@ -15,17 +15,14 @@ Use the [ValidationErrorsHostBehavior.HasErrors](https://docs.devexpress.com/WPF
 
 ![WPF MVVM Framework | ValidationErrorsHostBehavior and POCO](https://user-images.githubusercontent.com/12169834/134019953-024e42b8-6b1e-4763-a168-ce6ec3b00ac9.png)
 
-
-<!-- default file list --> 
 ## Files to Look At
 - [MainView.xaml](./CS/View/MainView.xaml) (**VB**: [MainView.xaml](./VB/View/MainView.xaml))
 - [MainViewMode.cs](./CS/ViewModel/MainViewModel.cs) (**VB**: [MainViewMode.vb](./VB/ViewModel/MainViewModel.vb))
-<!-- default file list end -->
 
 ## Documentation
 
 - [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior)
-- [POCO - Automatic IDataErrorInfo Implementation](http://docs.devexpress.devx/WPF/17352/mvvm-framework/viewmodels/runtime-generated-poco-viewmodels?v=21.2#idataerrorinfo)
+- [POCO - Automatic IDataErrorInfo Implementation](https://docs.devexpress.com/WPF/17352/mvvm-framework/viewmodels/runtime-generated-poco-viewmodels#idataerrorinfo)
 - [Behaviors](https://docs.devexpress.com/WPF/17442/mvvm-framework/behaviors)
 
 ## More Examples
