@@ -25,7 +25,7 @@ Use the [ValidationErrorsHostBehavior.HasErrors](https://docs.devexpress.com/WPF
 ## Documentation
 
 - [ValidationErrorsHostBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ValidationErrorsHostBehavior)
-- [POCO - Automatic IDataErrorInfo Implementation](http://docs.devexpress.devx/WPF/17352/mvvm-framework/viewmodels/runtime-generated-poco-viewmodels?v=21.2#idataerrorinfo)
+- [POCO - Automatic IDataErrorInfo Implementation](https://docs.devexpress.com/WPF/17352/mvvm-framework/viewmodels/runtime-generated-poco-viewmodels#idataerrorinfo)
 - [Behaviors](https://docs.devexpress.com/WPF/17442/mvvm-framework/behaviors)
 
 ## More Examples
